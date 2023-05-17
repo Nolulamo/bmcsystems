@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .mycontent {
+    margin: 0;
+  }
+  .mycontent .container-fluid .row .col-lg-3 {
+    padding: 10px 0 15px;
+  }
+  .mycontent .container-fluid .row .col-lg-3 .side-bar {
+    background-color: rgb(12, 12, 37);
+    height: 100%;
+  }
+  .mycontent .container-fluid .row .col-lg-3 .side-bar hr {
+    background-color: white;
+  }
+  .mycontent .container-fluid .row .col-lg-3 .side-bar .mynavbar .container-fluid .navbar a {
+    color: white;
+    font-weight: bolder;
+  }
+  .mycontent .container-fluid .row .col-lg-3 .side-bar .mynavbar .container-fluid .navbar a:hover {
+    text-decoration: none;
+  }
+  .mycontent .container-fluid .row .col-lg-3 .side-bar .side-nav-links {
+    padding: 20px;
+  }
+  .mycontent .container-fluid .row .col-lg-3 .side-bar .side-nav-links h4 {
+    font-size: 1vw;
+    font-weight: 400;
+    margin: 15px;
+    color: white;
+  }
+  .mycontent .container-fluid .row .col-lg-9 {
+    padding: 5px;
+    margin: 0;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar {
+    position: relative;
+    top: 5px;
+    width: 100%;
+    background-color: rgb(12, 12, 37);
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar .container-fluid .navbar form input[type=search] {
+    background-color: transparent;
+    border-color: green;
+    color: green;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar .container-fluid .navbar form input[type=search]::-moz-placeholder {
+    color: white;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar .container-fluid .navbar form input[type=search]::placeholder {
+    color: white;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar .container-fluid .navbar form input[type=search]:focus {
+    box-shadow: none;
+    border-color: green;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar .container-fluid .navbar .main-nav .my-profile {
+    position: relative;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar .container-fluid .navbar .main-nav .my-profile img {
+    position: relative;
+    display: inline-block;
+    right: 30px;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar .container-fluid .navbar .main-nav .my-profile .profile-content {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar .container-fluid .navbar .main-nav .my-profile .profile-content p {
+    padding: 0;
+    margin: 1px;
+    text-align: center;
+    color: white;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar .container-fluid .navbar .main-nav .my-profile .profile-content p:nth-child(1) {
+    font-size: 1.3vw;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .mynavbar .container-fluid .navbar .main-nav .my-profile .profile-content p:nth-child(2) {
+    font-size: 1vw;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 h3 {
+    font-size: 2.5vw;
+    color: black;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-5 .circle {
+    vertical-align: top;
+    display: inline-block;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-image: radial-gradient(green, purple, rgb(1, 17, 1));
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-5 .info {
+    display: inline-block;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-5 .info .info-text {
+    padding-left: 50px;
+    padding-top: 20px;
+    vertical-align: top;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-5 .info .info-text h3 {
+    font-size: 1.5vw;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes {
+    text-align: center;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes1, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes2, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes3, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes4, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes5, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes6, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes7, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes8, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes9 {
+    height: 90px;
+    width: 30.3%;
+    display: inline-block;
+    padding: 0;
+    box-shadow: 1px 2px 3px rgb(160, 156, 156), -2px -1px 3px rgb(160, 158, 158);
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes1 p, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes2 p, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes3 p, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes4 p, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes5 p, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes6 p, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes7 p, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes8 p, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes9 p {
+    color: white;
+    font-size: 1.1vw;
+    font-weight: 400;
+    margin: 2px;
+    padding: 0;
+    text-align: center;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes2, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes3, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes5, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes6, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes8, .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes9 {
+    margin-left: -5px;
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes1 {
+    background-color: rgb(6, 138, 94);
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes2 {
+    background-color: rgb(23, 23, 61);
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes3 {
+    background-image: linear-gradient(to bottom right, rgb(95, 35, 95), rgb(83, 43, 177));
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes4 {
+    background-image: linear-gradient(to top left, rgb(255, 145, 0), rgb(235, 215, 163));
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes5 {
+    background-color: rgba(167, 218, 167, 0.993);
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes6 {
+    background-color: rgb(32, 88, 153);
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes7 {
+    background-image: linear-gradient(to bottom right, rgb(37, 2, 37), rgb(30, 5, 90));
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes8 {
+    background-image: linear-gradient(to bottom right, rgb(4, 44, 90), rgb(7, 80, 19));
+  }
+  .mycontent .container-fluid .row .col-lg-9 .my-dashboard .city1 .row .col-lg-7 .my-boxes .boxes9 {
+    background-image: linear-gradient(to bottom right, rgb(163, 53, 10), rgb(177, 43, 121));
+  }
+  
+  footer {
+    margin: 0;
+    padding: 15px;
+    background-color: rgb(12, 12, 37);
+  }
+  footer p {
+    color: white;
+    font-weight: 400;
+  }/*# sourceMappingURL=index.css.map */
